@@ -341,8 +341,8 @@ Adafruit_INA219::Adafruit_INA219(uint8_t addr) {
 void Adafruit_INA219::begin() {
   Wire.begin();
   // Set chip to known config values to start
-  ina219SetCalibration_32V_1A();
-  //ina219SetCalibration_16V_400mA();
+  //ina219SetCalibration_32V_1A();
+  ina219SetCalibration_16V_400mA();
 }
 
 /**************************************************************************/
