@@ -1,0 +1,7 @@
+{
+  "name": "INA219Spark",
+  "author": "Lucus Darnell",
+  "license": "MIT",
+  "version": "0.0.10",
+  "description": "This library allows you to monitor battery life using the Adafruit INA219 high side current sensor. Note: I did not write this library and can't find its original author."
+}
